@@ -1,0 +1,147 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #141e30, #243b55);
+  color: #fff;
+  text-align: center;
+}
+
+/* Header */
+header {
+  padding: 2rem 1rem;
+  background: rgba(0,0,0,0.6);
+  border-bottom: 2px solid #00c6ff;
+}
+
+header .profile img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 5px solid #00c6ff;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.3rem;
+  color: #00c6ff;
+}
+
+header p {
+  font-size: 1.2rem;
+  opacity: 0.85;
+}
+
+/* About Section */
+#about {
+  padding: 3rem 1rem;
+}
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #00c6ff;
+}
+
+#about p {
+  font-size: 1.1rem;
+  max-width: 650px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+/* Skills Section */
+#skills {
+  padding: 3rem 1rem;
+  background: rgba(255,255,255,0.05);
+}
+
+#skills h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #00c6ff;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.skill {
+  background: rgba(0,0,0,0.5);
+  padding: 1.5rem;
+  border-radius: 15px;
+  width: 120px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill i {
+  font-size: 2.5rem;
+  color: #00c6ff;
+  margin-bottom: 0.5rem;
+}
+
+.skill p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.skill:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(0,198,255,0.7);
+}
+
+/* Projects Section */
+#projects {
+  padding: 3rem 1rem;
+}
+
+#projects h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #00c6ff;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+}
+
+.project-link {
+  display: inline-block;
+  background: rgba(0,0,0,0.6);
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.project-link i {
+  margin-right: 10px;
+  color: #ff5722;
+}
+
+.project-link:hover {
+  background: #00c6ff;
+  color: #000;
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  padding: 1.5rem;
+  background: rgba(0,0,0,0.7);
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
